@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_Gaji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:text="Form Gaji Karyawan"
+        android:textColor="#FBFBFB"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Karyawan"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Nama lengkap" />
+
+    <TextView
+        android:id="@+id/tv_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Karyawan"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Nomor Karyawan" />
+
+    <TextView
+        android:id="@+id/tv_menikah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menikah"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_menikah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menikah"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_golongan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Golongan"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rb_gol1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Golongan 1 "
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_gol2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Golongan 2"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bt_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0A2CE6"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil perhitungan"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+</LinearLayout>
