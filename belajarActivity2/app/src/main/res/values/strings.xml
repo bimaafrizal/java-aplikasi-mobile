@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">belajarActivity2</string>
+    <string name="length">length</string>
+    <string name="width">width</string>
+    <string name="height">height</string>
+    <string name="calculate">calculate</string>
+</resources>
